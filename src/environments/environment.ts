@@ -7,6 +7,7 @@ export const environment = {
   apiKey: 'e1e397cf7360cb1ffbdad2f59c13c8bd',
   baseUrl: 'https://api.themoviedb.org/3',
   images: 'http://image.tmdb.org/t/p',
+  googleKey: 'AIzaSyB_0BrJwp_RF7d7XA-FWjHJZJzFizZUofU'
 };
 
 /* https://api.themoviedb.org/3/movie/550?api_key=e1e397cf7360cb1ffbdad2f59c13c8bd

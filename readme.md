@@ -22,3 +22,19 @@ ionic lab
 			"useDialog": true
 		}
 	}
+
+
+# google maps
+
+<key>NSLocationAlwaysUsageDescription</key>
+    <array>
+        <string>Location is required to find out where you are</string>
+    </array>
+    <key>Privacy-Location Usage Description</key>
+    <string>Location is required to find out where you are.</string>
+
+
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Your location is required for xyz benefits for you</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Your location is required for xyz benefits for you</string>
