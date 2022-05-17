@@ -1,13 +1,11 @@
-# Install the Lab Package
-npm i @ionic/lab
-
-# Run your app with device preview and platform styles
-ionic lab
-
-
-"plugins": {
+{
+	"appId": "io.ionic.starter",
+	"appName": "movieApp",
+	"webDir": "www",
+	"bundledWebRuntime": false,
+	"plugins": {
 		"SplashScreen": {
-			"launchShowDuration": 300,
+			"launchShowDuration": 3000,
 			"launchAutoHide": true,
 			"backgroundColor": "#ffffffff",
 			"androidSplashResourceName": "splash",
@@ -21,4 +19,8 @@ ionic lab
 			"layoutName": "launch_screen",
 			"useDialog": true
 		}
+	},
+	"server": {
+		"url": "http://172.25.20.65:8100"
 	}
+}

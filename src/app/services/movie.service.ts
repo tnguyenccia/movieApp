@@ -16,6 +16,6 @@ export class MovieService {
   }
 
   getMovieDetails(id: string): Observable<ApiResult>{
-    return this.http.get<ApiResult>(`${environment.baseUrl}/movie/${id}/api_key=${environment.apiKey}`);
+    return this.http.get<ApiResult>(`${environment.baseUrl}/movie/${id}?api_key=${environment.apiKey}`);
   }
 }

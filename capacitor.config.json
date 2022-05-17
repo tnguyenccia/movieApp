@@ -3,4 +3,5 @@
 	"appName": "movieApp",
 	"webDir": "www",
 	"bundledWebRuntime": false
+	
 }
